@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_bright"
+    android:orientation="vertical"
+    tools:context=".restraunt">
+
+<TextView
+    android:id="@+id/fb"
+    android:gravity="center_horizontal"
+    android:textSize="30dp"
+    android:textStyle="bold"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"></TextView>
+
+
+<View
+    android:layout_width="match_parent"
+    android:layout_height="1sp"
+    android:background="@android:color/black"
+    android:layout_marginTop="45sp"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="0sp"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+    <TextView
+        android:layout_width="158sp"
+        android:layout_height="40sp"
+        android:text="Chicken Manchrian"
+        android:textColor="@android:color/background_dark"
+        android:paddingTop="5sp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginLeft="10sp"
+        android:id="@+id/item1"></TextView>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:layout_marginLeft="50sp"
+        android:id="@+id/rate1"
+        ></Spinner>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$90"
+        android:id="@+id/price1"
+        android:layout_marginLeft="25sp"></TextView>
+
+</LinearLayout>
+
+<View
+    android:layout_width="match_parent"
+    android:layout_height="1sp"
+    android:background="@android:color/black" />
+<LinearLayout
+    android:layout_weight="0"
+    android:layout_width="match_parent"
+    android:layout_marginTop="0sp"
+
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+    <TextView
+        android:layout_width="158sp"
+        android:layout_height="40sp"
+        android:layout_marginLeft="10sp"
+        android:text="Chicken 65"
+        android:textColor="@android:color/background_dark"
+        android:paddingTop="5sp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:id="@+id/item1"></TextView>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:layout_marginLeft="50sp"
+        android:id="@+id/rate2"
+        ></Spinner>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$90"
+        android:id="@+id/price2"
+        android:layout_marginLeft="25sp"></TextView>
+
+</LinearLayout>
+
+<View
+    android:layout_width="match_parent"
+    android:layout_height="1sp"
+    android:background="@android:color/black" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="0sp"
+
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+
+    <TextView
+        android:id="@+id/item1"
+        android:layout_width="158dp"
+        android:layout_height="40sp"
+        android:layout_marginLeft="10sp"
+        android:paddingTop="5sp"
+        android:text="Chicken Majestic"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="bold"></TextView>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:layout_marginLeft="50sp"
+        android:id="@+id/rate3"
+        ></Spinner>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$90"
+        android:id="@+id/price3"
+        android:layout_marginLeft="25sp"></TextView>
+
+</LinearLayout>
+
+<View
+    android:layout_width="match_parent"
+    android:layout_height="1sp"
+    android:background="@android:color/black" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="0sp"
+
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+
+    <TextView
+        android:id="@+id/item1"
+        android:layout_width="158sp"
+        android:layout_height="40sp"
+        android:layout_marginLeft="10sp"
+        android:paddingTop="5sp"
+        android:text="Full tandori"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="bold"></TextView>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:layout_marginLeft="50sp"
+        android:id="@+id/rate4"
+        ></Spinner>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$90"
+        android:id="@+id/price4"
+        android:layout_marginLeft="25sp"></TextView>
+
+</LinearLayout>
+
+<View
+    android:layout_width="match_parent"
+    android:layout_height="1sp"
+    android:background="@android:color/black" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="0sp"
+
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+    <TextView
+        android:layout_width="158sp"
+        android:layout_height="40sp"
+        android:layout_marginLeft="10sp"
+        android:text="Full Kadaimurga   "
+        android:textColor="@android:color/background_dark"
+        android:paddingTop="5sp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:id="@+id/item1"></TextView>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:layout_marginLeft="50sp"
+        android:id="@+id/rate5"
+        ></Spinner>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$90"
+        android:id="@+id/price5"
+        android:layout_marginLeft="25sp"></TextView>
+
+</LinearLayout>
+
+<View
+    android:layout_width="match_parent"
+    android:layout_height="1sp"
+    android:background="@android:color/black" />
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0sp"
+        android:text="Calculate"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_marginLeft="5sp"
+        android:textColor="@android:color/background_dark"
+        android:text="Total amount"></TextView>
+
+    <TextView
+        android:id="@+id/price6"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="40sp"
+        android:layout_marginRight="10sp"
+        android:gravity="left"
+        android:text=" "></TextView>
+
+</LinearLayout>
+
+    <Button
+        android:id="@+id/genrate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Generate bill"
+        android:textSize="20sp"
+        android:layout_marginLeft="0sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="20sp"
+        >
+
+        <TextView
+            android:id="@+id/bill"
+            android:layout_width="188dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="50sp"
+            android:text=" "
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:text=" "/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
