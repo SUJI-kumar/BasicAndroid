@@ -56,7 +56,7 @@ public  class restraunt extends AppCompatActivity implements AdapterView.OnItemS
             public void onItemSelected(AdapterView<?> parent, View view, int i, long l)
             {
                 b = Integer.parseInt(mood[i]) * 90;
-                Toast.makeText(getApplicationContext(), "Select:" + Integer.parseInt(mood[i]) * 90, Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(), "Amount:" + Integer.parseInt(mood[i]) * 90, Toast.LENGTH_LONG).show();
                 price2.setText("$" + b);
 
             }
@@ -77,7 +77,7 @@ public  class restraunt extends AppCompatActivity implements AdapterView.OnItemS
             public void onItemSelected(AdapterView<?> parent, View view, int i, long l)
             {
                 c = Integer.parseInt(mood[i]) * 90;
-                Toast.makeText(getApplicationContext(), "Select:" + Integer.parseInt(mood[i]) * 90, Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(), "Amount:" + Integer.parseInt(mood[i]) * 90, Toast.LENGTH_LONG).show();
                 price3.setText("$" + c);
 
             }
@@ -98,7 +98,7 @@ public  class restraunt extends AppCompatActivity implements AdapterView.OnItemS
             public void onItemSelected(AdapterView<?> parent, View view, int i, long l)
             {
                 d = Integer.parseInt(mood[i]) * 90;
-                Toast.makeText(getApplicationContext(), "Select:" + Integer.parseInt(mood[i]) * 90, Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(), "Amount:" + Integer.parseInt(mood[i]) * 90, Toast.LENGTH_LONG).show();
                 price4.setText("$" + d);
 
             }
@@ -119,7 +119,7 @@ public  class restraunt extends AppCompatActivity implements AdapterView.OnItemS
             public void onItemSelected(AdapterView<?> parent, View view, int i, long l)
             {
                 e = Integer.parseInt(mood[i]) * 90;
-                Toast.makeText(getApplicationContext(), "Select:" + Integer.parseInt(mood[i]) * 90, Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(), "Amount:" + Integer.parseInt(mood[i]) * 90, Toast.LENGTH_LONG).show();
                 price5.setText("$" + e);
 
             }
@@ -154,7 +154,7 @@ public  class restraunt extends AppCompatActivity implements AdapterView.OnItemS
             public void onClick(View view) {
                 if(result == 0)
                 {
-                    Toast.makeText(getApplicationContext(),"First Order someething",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(),"First Order something",Toast.LENGTH_SHORT).show();
 
                 }else {
                     DateFormat dform = new SimpleDateFormat("dd/MM/yy HH:mm:ss");
@@ -182,7 +182,7 @@ public  class restraunt extends AppCompatActivity implements AdapterView.OnItemS
     @Override
     public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
         a = Integer.parseInt(mood[i]) * 90;
-        Toast.makeText(getApplicationContext(), "Select:" + Integer.parseInt(mood[i]) * 90, Toast.LENGTH_LONG).show();
+        Toast.makeText(getApplicationContext(), "Amount:" + Integer.parseInt(mood[i]) * 90, Toast.LENGTH_LONG).show();
         price.setText("$" + a);
 
     }

@@ -171,7 +171,7 @@ tools:context=".Signup">
     android:layout_toRightOf="@id/email"
     android:layout_marginTop="-5sp"
     android:hint="Mrsingh@gmail.com"
-    android:inputType="textImeMultiLine"
+    android:inputType="textEmailAddress"
     android:paddingTop="-15sp"
     android:textColorHint="#0A0A0A" />
 <TextView
@@ -234,7 +234,7 @@ tools:context=".Signup">
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Cancel"
-        android:id="@+id/cancell"
+        android:id="@+id/cancel"
         android:textStyle="bold"
         android:textSize="20sp"
         android:layout_below="@id/submit"
