@@ -78,6 +78,7 @@ public class Signup extends AppCompatActivity {
                     Toast toast = Toast.makeText(getApplicationContext(), "Enter Your Name", Toast.LENGTH_LONG);
                     toast.setGravity(Gravity.BOTTOM, 0, 150);
                     toast.show();
+
                 }
                 else if(u.length() < 5)
                 {
@@ -99,7 +100,7 @@ public class Signup extends AppCompatActivity {
                     toast.show();
 
                 }
-                else if(baby.isEmpty())
+                else if(hobby.length()==0)
                 {
                     Toast toast = Toast.makeText(getApplicationContext(), "Choose your food", Toast.LENGTH_SHORT);
                     toast.setGravity(Gravity.BOTTOM, 0, 150);
@@ -131,6 +132,7 @@ public class Signup extends AppCompatActivity {
                         toast.setGravity(Gravity.TOP, 0, 100);
                         toast.show();
                         gender = " ";
+
                         Intent i=new Intent(getApplicationContext(),MainActivity.class);
                         i.putExtra("new_user",u);
                         i.putExtra("new_pass",p);
