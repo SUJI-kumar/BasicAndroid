@@ -16,7 +16,8 @@ public class Signup extends AppCompatActivity {
     EditText user,pass,email,address,mobile;
     Button submit,cancel;
     RadioButton Male, Female,other;
-    String gender,sel = "",baby = "",hobby = "";
+    String hobby = "", gender;
+    String sel = "", baby = "";
     CheckBox veg, non_veg, mix;
 
     @Override
@@ -77,7 +78,6 @@ public class Signup extends AppCompatActivity {
                     Toast toast = Toast.makeText(getApplicationContext(), "Enter Your Name", Toast.LENGTH_LONG);
                     toast.setGravity(Gravity.BOTTOM, 0, 150);
                     toast.show();
-
                 }
                 else if(u.length() < 5)
                 {
@@ -92,14 +92,16 @@ public class Signup extends AppCompatActivity {
                 {
                     Toast.makeText(getApplicationContext(), "password can't be less than 5", Toast.LENGTH_SHORT).show();
                 }
-                else if (sel.isEmpty()) {
+                else if (sel.isEmpty())
+                {
                     Toast toast = Toast.makeText(getApplicationContext(), "Provide Your Gender", Toast.LENGTH_SHORT);
                     toast.setGravity(Gravity.BOTTOM, 0, 150);
                     toast.show();
 
                 }
-                else if (baby.isEmpty()) {
-                    Toast toast = Toast.makeText(getApplicationContext(), "choose your food", Toast.LENGTH_SHORT);
+                else if(baby.isEmpty())
+                {
+                    Toast toast = Toast.makeText(getApplicationContext(), "Choose your food", Toast.LENGTH_SHORT);
                     toast.setGravity(Gravity.BOTTOM, 0, 150);
                     toast.show();
 
@@ -137,12 +139,18 @@ public class Signup extends AppCompatActivity {
                     }
 
                 }
-                hobby = " ";
-                baby = " ";
+                hobby=" ";
+                baby=" ";
 
             }
 
         });
-
+        cancel.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i=new Intent(getApplicationContext(),MainActivity.class);
+                startActivity(i);
+            }
+        });
     }
 }

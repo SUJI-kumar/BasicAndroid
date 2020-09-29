@@ -81,6 +81,8 @@ public class MainActivity extends AppCompatActivity {
                     Intent i= new Intent(getApplicationContext(),restraunt.class);
                     i.putExtra("user", user);
                     i.putExtra("pass",pass);
+                    i.putExtra("Admin_name",Admin_name);
+                    i.putExtra("Admin_pass",Admin_password);
                     startActivity(i);
 
                 }
